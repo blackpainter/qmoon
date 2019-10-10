@@ -1,5 +1,7 @@
 module github.com/QOSGroup/qmoon
 
+go 1.13
+
 require (
 	cloud.google.com/go v0.36.0 // indirect
 	github.com/QOSGroup/qbase v0.2.3-0.20190917080943-5c13010498cc
@@ -7,7 +9,6 @@ require (
 	github.com/cosmos/cosmos-sdk v0.37.0
 	github.com/didip/tollbooth v4.0.0+incompatible
 	github.com/elazarl/go-bindata-assetfs v1.0.0
-	github.com/ethereum/go-ethereum v1.8.23 // indirect
 	github.com/gin-contrib/sse v0.0.0-20190125020943-a7658810eb74 // indirect
 	github.com/gin-gonic/gin v1.3.0
 	github.com/go-gomail/gomail v0.0.0-20160411212932-81ebce5c23df
